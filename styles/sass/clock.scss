@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Black Ops One";
+  font-size: 5rem;
+  color: lime;
+}
+
+.clock {
+  background: #000;
+  border: 20px solid rgb(65, 33, 14);
+  padding: 2rem;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .time {
+    font-size: 2em;
+  }
+}
